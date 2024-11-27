@@ -1,0 +1,35 @@
+.irrigation-tab {
+    text-align: center;
+  }
+  
+  .irrigation-settings {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .irrigation-settings label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .irrigation-settings input {
+    width: 100px;
+    padding: 5px;
+  }
+  
+  .save-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .save-button:hover {
+    background-color: #45a049;
+  }
+  

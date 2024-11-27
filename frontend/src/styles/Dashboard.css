@@ -1,0 +1,42 @@
+/* Dashboard.css */
+
+.dashboard-container {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .tab-navigation {
+    display: flex;
+    justify-content: center; /* Căn giữa các nút tab */
+    gap: 20px; /* Khoảng cách giữa các nút tab */
+    margin-bottom: 20px;
+  }
+  
+  .tab-navigation button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+  
+  .tab-navigation button:hover {
+    background-color: #388e3c;
+    transform: scale(1.1); /* Phóng to nhẹ khi hover */
+  }
+  
+  .tab-navigation button.active {
+    background-color: #2e7d32; /* Màu nền cho tab được chọn */
+  }
+  
+  .tab-content {
+    text-align: center; /* Canh giữa nội dung */
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  

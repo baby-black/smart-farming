@@ -1,0 +1,59 @@
+.browse-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product-card {
+  width: 200px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.product-price {
+  font-weight: bold;
+  color: #d32f2f;
+}
+
+.news-list {
+  margin-top: 40px;
+}
+
+.news-card {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.news-card h4 {
+  font-size: 18px;
+  margin: 0 0 10px;
+}
+
+.read-more {
+  color: #1e88e5;
+  text-decoration: none;
+}
